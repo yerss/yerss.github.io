@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Сайт</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container container">
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="./images/logo.svg" alt="Logo" />
+                        </a>
+                    </div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item" id="priceListBtn">
+                                <a href="#" class="header__link">Прайс лист</a>
+                            </li>
+                            <li class="header__item" id="contactBtn">
+                                <a href="#" class="header__link">Контакты</a>
+                            </li>
+                            <li class="header__item" id="serviceBtn">
+                                <a href="#" class="header__link">Услуги</a>
+                            </li>
+                            <li class="header__item header__item--phone">
+                                <a href="tel:87073140707" class="header__link">8-707-314-07-07</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <h1 class="header__title">
+                    СОВРЕМЕННЫЕ СИСТЕМЫ ОЧИСТКИ ВОДЫ
+                </h1>
+                <article class="header__content">
+                    <h2>Технологии очистки воды с применением мембран </h2>
+                    <p>Мембранные методы разделения - обратный осмос, ультрафильтрация и микрофильтрация, позволяющие
+                        очищать воду и удалить из воды сразу все виды загрянений</p>
+                </article>
+                <img src="./images/technology.png" alt="technology img" class="header__technology-img" />
+            </div>
+        </header>
+        <section class="membranes-types">
+            <div class="membranes-types__container container">
+                <h1 class="membranes-types__title">Виды мембран</h1>
+                <div class="membranes-types__content">
+                    <div class="membranes-types__left ">
+                        <article class="membranes-info membranes-info--space">
+                            <div class="membranes-info__header">
+                                <div class="membranes-info__img">
+                                    <img src="./images/membrane1.svg" alt="membrane" />
+                                </div>
+                                <h3 class="membranes-info__title membranes-info__title--green">Ультрафильтрационные
+                                    мембраны </h3>
+                            </div>
+                            <p class="membranes-info__content">Имеются наиболее крупные поры диаметром от 1 до 0,05
+                                микрон (1 МКМ = 10-6 М) и работают обычно при давлениях 2-5 бар.
+                            </p>
+                            <p class="membranes-info__subcontent">
+                                Они применяются, например, для доочистки питьевой водопроводной воды от коллидных и
+                                высокомолекулярных загрязнений, если не требудется корректировка ее солевого состава
+                            </p>
+                        </article>
+
+                        <article class="membranes-info">
+                            <div class="membranes-info__header">
+                                <div class="membranes-info__img">
+                                    <img src="./images/membrane2.svg" alt="membrane" />
+                                </div>
+                                <h3 class="membranes-info__title membranes-info__title--light-blue">Обратноосмотические
+                                    мембраны</h3>
+                            </div>
+                            <p class="membranes-info__content">Имеются поры диаметром менее 10 нанометров, работают при
+                                давлениях до 100 бар и позволяют осуществлять глубокое обессоливание, или
+                                деминерализацию.
+                            </p>
+                            <p class="membranes-info__subcontent">
+                                Обратный осмос применяются для получения сверхчистой воды для производсвенных нужд, а
+                                также для опреснения морской и солоноватных подземных вод
+                            </p>
+                        </article>
+                    </div>
+                    <div class="membranes-types__center">
+                        <img src="./images/membrane-img.jpg" alt="membrane svg" />
+                    </div>
+                    <div class="membranes-types__right">
+                        <article class="membranes-info">
+                            <div class="membranes-info__header">
+                                <div class="membranes-info__img">
+                                    <img src="./images/membrane2.svg" alt="membrane" />
+                                </div>
+                                <h3 class="membranes-info__title membranes-info__title--light-blue">Нанофильтрационные
+                                    мембраны</h3>
+                            </div>
+                            <p class="membranes-info__content">Поры 5-50 НМ, или 0,05-0,005 МКМ использует для умягчения
+                                воды с повышенной жесткостью, для удаления ионов тяжелых металлов и хлорорганики.
+                            </p>
+                            <p class="membranes-info__subcontent">
+                                Однавалентные илны, такие как Na, K, Cl,No3 задерживаются слабо - в среднем не более
+                                10-30% рабочее давление нанофильтрации обычно не превышает 5-7 бар.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="possible-solutions">
+            <div class="possible-solutions__container container swiper-container1">
+                <div class="possible-solutions__wrapper swiper-wrapper">
+                   
+                    <article class="possible-solutions__item swiper-slide">
+                        <h3 class="possible-solutions__title">Решения для дома и бизнеса</h3>
+                        <div class="possible-solutions__description">
+                            <img src="./images/solution-icon.svg" alt="solution icon" />
+                            <span>Полная очистка</span>
+                        </div>
+                        <p class="possible-solutions__content">Готовые системы, представляющие собой полную
+                            технологическую схему очистки воды посредством установки блочно-модульного типа</p>
+                        <div class="dots swiper-pagination">
+                            <div class="dots__dot dots--active"></div>
+                            <div class="dots__dot"></div>
+                            <div class="dots__dot"></div>
+                        </div>
+                        <img src="./images/solution-img1.png" alt="Solution image" class="possible-solutions__img" >
+                    </article>
+                    
+                     <article class="possible-solutions__item swiper-slide">
+                        <h3 class="possible-solutions__title">Решения для дома и бизнеса</h3>
+                        <div class="possible-solutions__description">
+                            <img src="./images/solution-icon.svg" alt="solution icon" />
+                            <span>Комфортная эксплуатация</span>
+                        </div>
+                        <p class="possible-solutions__content">Разработка под заказ с учетом необходимой производительности, монтаж и сервисные реагенты в комплектациипа</p>
+                        <div class="dots swiper-pagination">
+                            <div class="dots__dot dots--active"></div>
+                            <div class="dots__dot"></div>
+                            <div class="dots__dot"></div>
+                        </div>
+                        <img src="./images/solution-img1.png" alt="Solution image" class="possible-solutions__img" >
+                    </article>
+                    
+                     <article class="possible-solutions__item swiper-slide">
+                        <h3 class="possible-solutions__title">Решения для дома и бизнеса</h3>
+                        <div class="possible-solutions__description">
+                            <img src="./images/solution-icon.svg" alt="solution icon" />
+                            <span>Сервисное сопровождение</span>
+                        </div>
+                        <p class="possible-solutions__content">Сервисное обслуживание по гарантии, поставка и монтаж комплектующих</p>
+                        <div class="dots swiper-pagination">
+                            <div class="dots__dot dots--active"></div>
+                            <div class="dots__dot"></div>
+                            <div class="dots__dot"></div>
+                        </div>
+                        <img src="./images/solution-img1.png" alt="Solution image" class="possible-solutions__img" >
+                    </article>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="performance-types">
+            <div class="performance-types__container container">
+                <div class="performance-types__wrapper">
+                    <h1 class="performance-types__title">Варианты производительности</h1>
+                <div class="performance-types__cards">
+                    <article class="performance-types__card">
+                        <div class="performance-types__img">
+                            <img src="./images/performance1.png" alt="Performance img" />
+                        </div>
+                        <div class="performance-types__info">
+                            <div class="performance-types__icon">
+                                <img src="./images/performance-icon.png" alt="Performance icon" />
+                                <div class="performance-types__content">
+                                    <div class="performance-types__heading">Обработка воды</div>
+                                    <div class="performance-types__value">2 м3/час</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                      <article class="performance-types__card">
+                        <div class="performance-types__img">
+                            <img src="./images/performance1.png" alt="Performance img" />
+                        </div>
+                        <div class="performance-types__info">
+                            <div class="performance-types__icon">
+                                <img src="./images/performance-icon.png" alt="Performance icon" />
+                                <div class="performance-types__content">
+                                    <div class="performance-types__heading">Обработка воды</div>
+                                    <div class="performance-types__value">8 м3/час</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                      <article class="performance-types__card">
+                        <div class="performance-types__img">
+                            <img src="./images/performance1.png" alt="Performance img" />
+                        </div>
+                        <div class="performance-types__info">
+                            <div class="performance-types__icon">
+                                <img src="./images/performance-icon.png" alt="Performance icon" />
+                                <div class="performance-types__content">
+                                    <div class="performance-types__heading">Обработка воды</div>
+                                    <div class="performance-types__value">20 м3/час</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                      <article class="performance-types__card">
+                        <div class="performance-types__img">
+                            <img src="./images/performance1.png" alt="Performance img" />
+                        </div>
+                        <div class="performance-types__info">
+                            <div class="performance-types__icon">
+                                <img src="./images/performance-icon.png" alt="Performance icon" />
+                                <div class="performance-types__content">
+                                    <div class="performance-types__heading">Обработка воды</div>
+                                    <div class="performance-types__value">50 м3/час</div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="price" id="priceElement">
+            <div class="price__container container">
+                <h1 class="price__title">Стоимость установок</h1>
+                <div class="price__content">
+                    <div class="price__left left-price">
+                       <article class="left-price__item">
+                            <h1 class="left-price__title">
+                                <span>Производительность по фильтрату </span>
+                                <span>М3 час</span>
+                            </h1>
+                            <div class="left-price__range">
+                                <input type="range" min="0" max="100" value="0" step="7" id="range1"/>
+                                <div class="left-price__values">
+                                    
+                                   <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">0.2</div>
+                                    </div>
+                                   <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">0.4</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">0.6</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">1</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">2</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">3</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">4</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">5</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">8</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">10</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">15</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">25</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">50</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">100</div>
+                                    </div>
+                                </div>
+                            </div>
+                       </article>
+                       
+                         <article class="left-side__item">
+                            <h1 class="left-price__title">
+                                <span>Производительность по фильтрату </span>
+                                <span>Киловат /квт</span>
+                            </h1>
+                            <div class="left-price__range left-price__range--orange">
+                                <input type="range" min="0" max="100" value="0" step="1" id="range2" disabled/>
+                                <div class="left-price__values">
+                                   <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">1.1</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">2.2</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">4</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">5.5</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">7.5</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">11.5</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">12.5</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">18</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">25</div>
+                                    </div>
+                                    <div class="left-price__info">
+                                        <div class="left-price__vertical"></div>
+                                        <div class="left-price__number">45</div>
+                                    </div>
+                                </div>
+                            </div>
+                       </article>
+                    </div>
+                    <div class="price__right right-price">
+                        <h2 class="right-price__title">Сумма</h2>
+                        <span class="right-price__sum" id="sum">
+                            0т
+                        </span>
+                        <p class="right-price__text">
+                            * Возможна покупка отдельных элементов (мембрана, насос, фильтрующие элементы
+                        </p>
+                        <p class="right-price__text">* Возможно изменении стоимости</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="remain-request">
+            <div class="remain-request__container container">
+                <div class="remain-request__wrapper">
+                    <form class="remain-request__form request-form" action="">
+                        <h1 class="request-form__title">Оставьте заявку для бесплатной консультации</h1>
+                        <div class="request-form__input">
+                            <input type="text" placeholder="8 (***) *** ** **" class="phone_mask"/>
+                        </div>
+                         <div class="request-form__input">
+                            <input type="text" placeholder="ФИО" />
+                        </div>
+                        <div class="request-form__btn">
+                            <button type="submit" >Оставить заявку</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="includes">
+                <div class="includes__wrapper">
+                    <div class="container">
+                        <h1 class="includes__title">В СТОИМОСТЬ ВХОДИТ</h1>
+                    </div>
+                    <div class="includes__content">
+                        <div class="includes__cards container">
+                            <div class="includes__card">
+                                <div class="includes__left">
+                                    <img src="./images/icon1.png" alt="icon1">
+                                </div>
+                                <div class="includes__right">Доставка</div>
+                            </div>
+                            <div class="includes__card">
+                                <div class="includes__left">
+                                    <img src="./images/icon2.png" alt="icon1">
+                                </div>
+                                <div class="includes__right">Монтаж</div>
+                            </div>
+                            <div class="includes__card">
+                                <div class="includes__left">
+                                    <img src="./images/icon3.png" alt="icon1">
+                                </div>
+                                <div class="includes__right">Сервисное обслужевание</div>
+                            </div>
+                            <div class="includes__card">
+                                <div class="includes__left">
+                                    <img src="./images/icon4.png" alt="icon1">
+                                </div>
+                                <div class="includes__right">Сервисные реагенты</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="calculation-slider" id="service">
+            <div class="calculation-slider__wrapper">
+                <div class="calculation-slider__container container swiper-container2">
+                    <div class="calculation-slider__content swiper-wrapper">
+                        <div class="calculation-slider__item swiper-slide">
+                             <article class="calculation-slider__slides slider-content">
+                                 <h2 class="slider-content__title">Примерный расчет мощности установки</h2>
+                                 <p class="slider-content__text">Семья из 3 человек в среднем потребляет</p>
+                                 <div class="slider-content__time">
+                                     <div class="slider-content__icon">
+                                         <img src="./images/slider-icon.png" alt="slider icon">
+                                     </div>
+                                     <span>6 м3 воды в месяц </span>
+                                 </div>
+                                 <div class="slider-content__underscore">
+                                     <div></div>
+                                     <div>или</div>
+                                     <div></div>
+                                 </div>
+                                 <div class="slider-content__time">
+                                     <div class="slider-content__icon">
+                                         <img src="./images/slider-icon.png" alt="slider icon">
+                                     </div>
+                                     <span>0,0083 м3 в час</span>
+                                 </div>
+                                  <div class="dots swiper-pagination">
+                                    <div class="dots__dot dots--active"></div>
+                                    <div class="dots__dot"></div>
+                                    <div class="dots__dot"></div>
+                                  </div>
+                                  <img src="./images/slide-img1.png" alt="slide img" class="slider-content__img"/>
+                             </article>
+                        </div>
+                        
+                        <div class="calculation-slider__item swiper-slide">
+                             <article class="calculation-slider__slides slider-content">
+                                 <h2 class="slider-content__title">Примерный расчет мощности установки</h2>
+                                 <p class="slider-content__text">В 14 этажном доме в среднем приживают</p>
+                                 <div class="slider-content__time">
+                                     <div class="slider-content__icon">
+                                         <img src="./images/slider-icon.png" alt="slider icon">
+                                     </div>
+                                     <span>210 семей (квартир)</span>
+                                 </div>
+                                 <div class="slider-content__underscore">
+                                     <div></div>
+                                     <div>или</div>
+                                     <div></div>
+                                 </div>
+                                 <div class="slider-content__time">
+                                     <div class="slider-content__icon">
+                                         <img src="./images/slider-icon.png" alt="slider icon">
+                                     </div>
+                                     <span>5 подъездов по 3 кв на этаже </span>
+                                 </div>
+                                  <div class="dots swiper-pagination">
+                                    <div class="dots__dot dots--active"></div>
+                                    <div class="dots__dot"></div>
+                                    <div class="dots__dot"></div>
+                                  </div>
+                                  <img src="./images/slide-img2.png" alt="slide img" class="slider-content__img"/>
+                             </article>
+                        </div>
+                        
+                        <div class="calculation-slider__item swiper-slide">
+                             <article class="calculation-slider__slides slider-content">
+                                 <h2 class="slider-content__title">Примерный расчет мощности установки</h2>
+                                 <p class="slider-content__text">Объем потребления в среднем составитт</p>
+                                 <div class="slider-content__time">
+                                     <div class="slider-content__icon">
+                                         <img src="./images/slider-icon.png" alt="slider icon">
+                                     </div>
+                                     <span>1 260м3 воды в месяц</span>
+                                 </div>
+                                 <div class="slider-content__underscore">
+                                     <div></div>
+                                     <div>или</div>
+                                     <div></div>
+                                 </div>
+                                 <div class="slider-content__time">
+                                     <div class="slider-content__icon">
+                                         <img src="./images/slider-icon.png" alt="slider icon">
+                                     </div>
+                                     <span>1,75м3 в час</span>
+                                 </div>
+                                  <div class="dots swiper-pagination">
+                                    <div class="dots__dot dots--active"></div>
+                                    <div class="dots__dot"></div>
+                                    <div class="dots__dot"></div>
+                                  </div>
+                                  <img src="./images/slide-img3.png" alt="slide img" class="slider-content__img"/>
+                             </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sum">
+            <div class="sum__container container">
+                <div class="sum__content">
+                   <h2 class="sum__title">Примерная стоимость</h2>
+                    <article class="sum__card card-sum">
+                        <div class="card-sum__left">
+                            <img src="./images/sum1.png" alt="sum icon" />
+                        </div>
+                        <div class="card-sum__right">
+                            <h2 class="card-sum__title">14 этажей 5 подъездов 3 квартир 210 семей</h2>
+                           <div class="card-sum__info">
+                               <div class="card-sum__icon">
+                                   <img src="./images/sum-icon-1.png" alt="sum icon" />
+                               </div>
+                               <div class="card-sum__text">
+                                   Потребление: <span>1,75 м3 в час</span>
+                               </div>
+                           </div>
+                            <div class="card-sum__info">
+                               <div class="card-sum__icon">
+                                   <img src="./images/sum-icon-2.png" alt="sum icon" />
+                               </div>
+                               <div class="card-sum__text">
+                                   Установка: <span> 8 160 000  ₸</span>
+                               </div>
+                           </div>
+                        </div>
+                    </article>
+                    <article class="sum__card card-sum card-sum--replace">
+                        <div class="card-sum__left">
+                             <h2 class="card-sum__title">14 этажей 5 подъездов 3 квартир 210 семей</h2>
+                               <div class="card-sum__info">
+                                   <div class="card-sum__icon">
+                                       <img src="./images/sum-icon-1.png" alt="sum icon" />
+                                   </div>
+                                   <div class="card-sum__text">
+                                       Потребление: <span>1,75 м3 в час</span>
+                                   </div>
+                               </div>
+                                <div class="card-sum__info">
+                                   <div class="card-sum__icon">
+                                       <img src="./images/sum-icon-2.png" alt="sum icon" />
+                                   </div>
+                                   <div class="card-sum__text">
+                                       Установка: <span> 8 160 000  ₸</span>
+                                   </div>
+                               </div>
+                        </div>
+                        <div class="card-sum__right">
+                            <img src="./images/sum2.png" alt="sum icon" />
+                        </div>
+                    </article>
+                    <article class="sum__card card-sum">
+                        <div class="card-sum__left">
+                            <img src="./images/sum3.png" alt="sum icon" />
+                        </div>
+                        <div class="card-sum__right">
+                            <h2 class="card-sum__title">14 этажей 5 подъездов 3 квартир 210 семей</h2>
+                           <div class="card-sum__info">
+                               <div class="card-sum__icon">
+                                   <img src="./images/sum-icon-1.png" alt="sum icon" />
+                               </div>
+                               <div class="card-sum__text">
+                                   Потребление: <span>1,75 м3 в час</span>
+                               </div>
+                           </div>
+                            <div class="card-sum__info">
+                               <div class="card-sum__icon">
+                                   <img src="./images/sum-icon-2.png" alt="sum icon" />
+                               </div>
+                               <div class="card-sum__text">
+                                  Установка: <span> 8 160 000  ₸</span>
+                               </div>
+                           </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="projects__container container">
+                <div class="projects__content">
+                    <h1 class="projects__title">Реализованные проекты</h1>
+                    <div class="projects__garanties">
+                        <div class="projects__garantee">
+                            <img src="./images/garantee1.png" alt="garantee1" />
+                            <span>Установленно более 100 систем очистки</span>
+                        </div>
+                         <div class="projects__garantee">
+                            <img src="./images/garantee2.png" alt="garantee1" />
+                            <span>Опыт установки на различных объектах</span>
+                        </div>
+                         <div class="projects__garantee">
+                            <img src="./images/garantee3.png" alt="garantee1" />
+                            <span>Качество оборудования и материалов</span>
+                        </div>
+                    </div>
+                    <div class="projects__main">
+                        <div class="projects__left">
+                            <img src="./images/kz.png" alt="kz">
+                        </div>
+                        <div class="projects__right">
+                           <p class="projects__text">
+                               16 установок систем очистки на пограничных заставах - <strong>Казахстан</strong><br />
+                                37 установок систем очистки - <strong>Туркестанская область</strong><br />
+                                20 установок систем очистки в общеоброзовательных учреждениях - <strong>Кызылординская область</strong><br />
+                                6 установок систем очистки - <strong>Кызылординская область</strong><br />
+                           </p>
+                           <p class="projects__text">
+                               Месторождение АО “КазаОйл” - <strong>город Актобе</strong><br />
+                                а/о Кокжыра - <strong>город Зайсан, Восточно-Казахстанская область</strong><br />
+                                Бейнеу - <strong>Мангыстауская область</strong><br />
+                                Дом малютки - <strong>город Кызылорда</strong><br />
+                           </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="contact">
+            <div class="footer__container container">
+                <div class="footer__left">
+                    <h1 class="footer__title">Контакты</h1>
+                    <div class="footer__info">Телефон:  <a href="tel:77017770106">+7 701 777 0106</a> </div>
+                     <div class="footer__info">Почта: <a href="mailto:info@asiacentr.kz">info@asiacentr.kz</a> </div>
+                      <div class="footer__info">Адрес: Республика Казахстан, г. Шымкент, ул. К. Рыскулбекова, 29</div>
+                       <div class="footer__info">ТОО “АзияЦентрГрупп”</div>
+                        <div class="footer__info">БИН: 0712400006992</div>
+                         <div class="footer__info">Директор: Мәдіхан Асхат Талғатұлы</div>
+                </div>
+                <div class="footer__right">
+                     <form class="request-form" action="">
+                        <h1 class="request-form__title request-form__title--white">Оставьте заявку для бесплатной консультации</h1>
+                        <div class="request-form__input">
+                            <input type="text" placeholder="8 (***) *** ** **" class="phone_mask"/>
+                        </div>
+                         <div class="request-form__input">
+                            <input type="text" placeholder="ФИО" />
+                        </div>
+                        <div class="request-form__btn--blue">
+                            <button type="submit">Оставить заявку</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
